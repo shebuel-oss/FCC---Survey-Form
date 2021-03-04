@@ -29,7 +29,16 @@
             placeholder="Age" min="10" max="100" 
             required>
             <br>
-            
+
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown" form="survey-form">
+                <option value="" disabled selected>Select current role</option>
+                <option id="student">Student</option>
+                <option id="fulltime-job">Fulltime job</option>
+                <option id="fulltime-learner">Fulltime learner</option>
+                <option id="prefer-not-to-say">Prefer not to say</option>
+                <option id="other">Other</option>
+            </select>
         </form>
     </body>
 </html>
