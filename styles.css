@@ -3,7 +3,7 @@
 body {
     background: hsl(210, 45%, 60%);
     font-family: "raleway", helvetica, sans-serif;
-    line-height: 1.4em;
+    line-height: 50px;
     width: 600px;
     margin: auto;
     display: flex;
@@ -11,5 +11,10 @@ body {
 }
 
 form {
-    
+    background: rgb(10, 10, 49);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
 }
