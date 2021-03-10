@@ -4,7 +4,8 @@ body {
     background: hsl(210, 45%, 60%);
     font-family: "raleway", helvetica, sans-serif;
     line-height: 50px;
-    width: 600px;
+    font-size: 20px;
+    width: 700px;
     margin: auto;
     display: flex;
     flex-direction:column;
@@ -15,6 +16,6 @@ form {
     color: white;
     padding: 40px;
     border-radius: 10px;
-    width: 600px;
+    width: 700px;
     margin: auto;
 }
