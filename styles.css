@@ -1,1 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+    background: hsl(210, 45%, 60%);
+    font-family: "raleway", helvetica, sans-serif;
+    line-height: 1.4em;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+}
+
+form {
+    
+}
