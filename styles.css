@@ -3,7 +3,7 @@
 body {
     background: hsl(210, 45%, 60%);
     font-family: "raleway", helvetica, sans-serif;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 20px;
     width: 700px;
     margin: auto;
@@ -14,8 +14,18 @@ body {
 form {
     background: rgb(10, 10, 49);
     color: white;
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     width: 700px;
     margin: auto;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 1px;
+    background: rgb(100, 196, 100);
+    cursor: pointer;
+    font-size: 18px;
 }
