@@ -13,30 +13,32 @@
         </p>
 
         <form id="survey-form">
+
+            <div class="input-headings">
             <label for="name">Name</label>
             <br>
             <input id="name" type="text" name="name"
             placeholder="Enter your name here please"
-            required>
+            class="form-input" required>
             <br>
 
             <label for="email">Email</label>
             <br>
             <input id="email" type="email" name="email"
             placeholder="And your email here" 
-            required>
+            class="form-input" required>
             <br>
 
             <label for="number">Age(optional)</label>
             <br>
             <input id="number" type="number" name="number"
             placeholder="Age" min="10" max="100" 
-            required>
+            class="form-input" required>
             <br>
 
             <label for="dropdown">Which option best describes your current role?</label>
             <br>
-            <select id="dropdown" form="survey-form">
+            <select id="dropdown" form="survey-form" class="form-input">
                 <option value="" disabled selected>Select current role</option>
                 <option id="student">Student</option>
                 <option id="fulltime-job">Fulltime job</option>
@@ -126,5 +128,6 @@
             <input id="submit" type="submit" name="submit" value="submit" class="submit-button">
         
         </form>
+    </div>
     </body>
 </html>
