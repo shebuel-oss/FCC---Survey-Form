@@ -43,7 +43,7 @@ form {
     padding: 0.2rem 0.75rem;
     background: #fff;
     border: 1px solid #d7dcdd;
-    border-radius: 0.25rem;
+    border-radius: 0.25rem; 
 }
 
 .submit-button {
@@ -54,4 +54,8 @@ form {
     background: rgb(100, 196, 100);
     cursor: pointer;
     font-size: 18px;
+}
+
+#textarea {
+    width: 100%;
 }
